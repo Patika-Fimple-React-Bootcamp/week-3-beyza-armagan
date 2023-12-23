@@ -1,3 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/15dhsDVr)
 # Week-3
-week-3
+- An e-commerce website where you can delete and edit products.
+- Details of the products can be seen when clicked button is clicked.
+
+![Example Image](./src/assets/p1.PNG)
+
+![Example Image](./src/assets/p2.PNG)
+
+![Example Image](./src/assets/p3.PNG)
