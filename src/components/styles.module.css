@@ -1,0 +1,148 @@
+body {
+  background-color: #ffffff;
+}
+
+.button {
+  margin: 2px;
+  height: auto;
+  width: auto;
+  border-radius: 0;
+  background-color:rgba(175, 173, 175, 0.467)
+}
+
+.button:hover {
+  box-shadow: 0 2px 4px rgba(19, 17, 17, 0.1);
+}
+
+
+.productImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px; 
+  height: 260px; 
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; 
+}
+
+.productList > li {
+  flex: 1; 
+  display: flex;
+}
+
+.productItem {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 7px;
+  margin: 0px 2px 20px 0px;
+  width: 89%;
+  border: 1px solid rgba(95, 93, 91, 0.5);
+  position: relative; 
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.ratingCircle {
+  position: absolute;
+  top: -25px; 
+  left: -25px; 
+  width: 66px; 
+  height: 60px;
+  font-size: 22px;
+  background-color: #b08bd3; 
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+}  
+
+.ratingCircle svg {
+  color: #f1c40f; /* Yellow color for the star */
+}
+
+.itemTitle {
+  display: flex;
+  min-height: 170px; 
+  background-color: rgba(148, 147, 146, 0.151);
+  border: 1px solid rgba(148, 147, 146, 0.151);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9px;
+}
+.itemTitle > p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+  
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.editProductField {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.editProductField label {
+  text-align: left;
+  display: block;
+  justify-content: left;
+  width: 30%; 
+  margin-right: 10px; 
+}
+
+.editProductField input {
+  flex: 1; 
+  width: 70%; 
+  line-height: 2em;
+}
+
+.editProductField textarea {
+  flex: 1; 
+  width: 70%; 
+  line-height: 2em;
+  resize: none;
+}
+
+.editProductField p {
+  text-align: right;
+}
+
+.editProductButtons {
+  display: flex;
+  justify-content:right;
+  
+}
+
+.mainPageButtons {
+  display: flex;
+  justify-content:center;
+  margin: 0px 1px 0px 1px;
+}
